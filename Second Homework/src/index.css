@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.form {
+  border: 1px solid black;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 5rem auto;
+}
+.form h1 {
+  color: red;
+  font-size: 5rem;
+}
+.input {
+  margin: 0.5rem;
+  width: 100%;
+  max-width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+}
+.add {
+  width: 100%;
+  max-width: 70px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: blue;
+  background-color: aliceblue;
+  border: none;
+  border: 1px solid #fff;
+}
+.list {
+  padding: 1rem;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  list-style: none;
+  margin: 2rem 5rem;
+}
+.lister {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(148, 140, 140);
+  border-radius: 5px;
+}
+.checkbox {
+  margin: 1rem;
+  margin-right: 1.5rem;
+  font-size: 1.8rem;
+  background-color: aliceblue;
+  border-radius: 100%;
+  border: none;
+  color: green;
+}
+.delete {
+  border: none;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  background-color: aliceblue;
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
+.end {
+  margin: 10px;
+  display: flex;
+}
